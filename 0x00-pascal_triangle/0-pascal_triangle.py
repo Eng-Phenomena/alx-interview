@@ -1,9 +1,14 @@
 #!/usr/bin/python3
-"""
+
+'''
 ALX_Interview Question
 Pascal Triangle
-"""
+'''
 def pascal_triangle(n):
+    '''
+    Pascal triangle representations
+    in a list of lists
+    '''
     main_list = []
     if (n <= 0):
         return (main_list)
@@ -26,3 +31,4 @@ def pascal_triangle(n):
                     tmp.append(1)
                     main_list.append(tmp)
         return main_list
+
